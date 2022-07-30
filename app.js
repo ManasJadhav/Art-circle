@@ -210,6 +210,11 @@ app.get("/art-circle", (req, res) => {
   req.session.current_url = "/art-circle";
 });
 
+app.get("/", (req, res) => {
+  res.render("home", { message: req.flash("message") });
+  req.session.current_url = "/art-circle";
+});
+
 //admin page
 app.get("/admin", isLoggedIn, (req, res) => {
   query_string = "select * from queries";
