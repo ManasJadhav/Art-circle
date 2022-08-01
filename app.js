@@ -270,7 +270,7 @@ app.get("/home", (req, res) => {
   req.session.current_url = "/home";
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`The blog server started at localhost`);
 });
 
