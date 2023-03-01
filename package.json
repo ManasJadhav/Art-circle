@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "build" : "npm run build"
+    "build": "npm install and npm run build"
   },
   "author": "Saurabh Shinde",
   "license": "ISC",
   "dependencies": {
+    "and": "^0.0.3",
     "body-parser": "^1.19.0",
+    "build": "^0.1.4",
     "connect-flash": "^0.1.1",
     "crypto": "^1.0.1",
     "ejs": "^2.6.1",
@@ -21,8 +23,10 @@
     "method-override": "^3.0.0",
     "mongoose": "^5.4.11",
     "mysql": "^2.18.1",
+    "npm": "^9.2.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^5.0.1"
+    "passport-local-mongoose": "^5.0.1",
+    "run": "^1.4.0"
   }
 }
