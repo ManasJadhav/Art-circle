@@ -30,21 +30,15 @@
 
 @keyframes fade {
   0%,
-  80% {
-    background-image: url("../img/Art_circle/background/ajay_atul_prizes_quaff.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
   100% {
-    background-image: url("../img/Art_circle/background/firo1.JPG");
+    background-image: url("../img/Art_circle/background/ajay_atul_prizes_quaff.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   20% {
-    background-image: url("../img/Art_circle/background/firo2.JPG");
+    background-image: url("../img/Art_circle/background/Quaff_end_frame.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -74,21 +68,15 @@
 
 @keyframes fade2 {
   0%,
-  80% {
-    background-image: url("../img/Art_circle/background/ajay_atul_prizes_quaff.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
   100% {
-    background-image: url("../img/Art_circle/background/firo1.JPG");
+    background-image: url("../img/Art_circle/background/ajay_atul_prizes_quaff.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   20% {
-    background-image: url("../img/Art_circle/background/firo2.JPG");
+    background-image: url("../img/Art_circle/background/Quaff_end_frame.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
